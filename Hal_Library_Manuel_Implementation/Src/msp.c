@@ -4,11 +4,6 @@
  *  Created on: 12 Eki 2022
  *      Author: muhammetkocak
  */
-
-
-
-
-
 #include "main.h"
 void HAL_MspInit(void)
 {
@@ -22,7 +17,6 @@ void HAL_MspInit(void)
 	HAL_NVIC_SetPriority(UsageFault_IRQn,0,0);//Both sub and first priority is highes
 }
 
-
 void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
 {
 	__HAL_RCC_ADC1_CLK_ENABLE();
@@ -34,12 +28,9 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
 	gpio_adc.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
 	HAL_GPIO_Init(GPIOA,&gpio_adc);
 
-
 	HAL_NVIC_EnableIRQ(ADC_IRQn);
 	HAL_NVIC_SetPriority(ADC_IRQn,15,0);
-
 }
-
 
 
 
