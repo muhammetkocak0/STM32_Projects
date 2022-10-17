@@ -1,2 +1,0 @@
-system_Settings.c:8:6:HAL_MspInit	8	static
-system_Settings.c:20:6:HAL_ADC_MspInit	40	static
