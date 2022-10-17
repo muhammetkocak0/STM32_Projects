@@ -1,0 +1,2 @@
+it.c:17:6:SysTick_Handler	8	static
+it.c:23:6:EXTI0_IRQHandler	0	static
