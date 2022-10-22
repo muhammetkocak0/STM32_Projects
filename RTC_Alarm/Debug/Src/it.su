@@ -1,0 +1,2 @@
+it.c:17:6:SysTick_Handler	8	static
+it.c:24:6:RTC_Alarm_IRQHandler	0	static

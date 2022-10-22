@@ -1,0 +1,2 @@
+interrupt.c:12:6:SysTick_Handler	8	static
+interrupt.c:17:6:ADC_IRQHandler	0	static
